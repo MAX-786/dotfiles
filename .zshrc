@@ -34,3 +34,5 @@ done
 if [ -f ~/.zshrc_custom ]; then
     source ~/.zshrc_custom
 fi
+
+[[ -s "/home/hiphen/.gvm/scripts/gvm" ]] && source "/home/hiphen/.gvm/scripts/gvm"
